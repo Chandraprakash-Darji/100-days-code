@@ -1,6 +1,7 @@
-# 100 Days Of Code - Log
+# 100 Days Of Code
 
-### Day 0: January 17, 2022 
+### Day 0: January 17, 2022
+
 <!-- ##### () -->
 
 **Today's Progress**: Completed trillo project of [Advanced CSS and Sass Course](https://www.udemy.com/course/advanced-css-and-sass/?src=sac&kw=advance+css+and+sass)
@@ -9,88 +10,295 @@
 
 **Link to work:** [Project Final Repo](https://github.com/Chandraprakash-Darji/Trillo-Final-Advanced-CSS-and-Sass-Course)
 
-### Day 0: January 18, 2022 
-<!-- ##### () -->
+### Day 1: January 18, 2022
 
 **Today's Progress**: Learned About Css Grid from [Advanced CSS and Sass Course](https://www.udemy.com/course/advanced-css-and-sass/?src=sac&kw=advance+css+and+sass)
 
 **Thoughts:** Grids are amazing to arrange layout on webpage.
 
-**Properties I learned:** 
-```css
-body{
-    display: grid;
-    grid-template-columns: 150px 1fr;    // 1fr is awailable space
-    grid-template-rows: repeat(2, 150px) 300px;   // 150px 150px 300px
+**Properties I learned:**
 
-    grid-row-gap: 30px;
-    grid-column-gap: 30px;
+```scss
+body {
+  display: grid;
+  grid-template-columns: 150px 1fr; // 1fr is awailable space
+  grid-template-rows: repeat(2, 150px) 300px; // 150px 150px 300px
 
-    grid-gap: 30px;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
 
+  grid-gap: 30px;
 
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-row:  2 / 3;  //  grid-row-start: 2;  grid-row-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-row: 2 / 3; //  grid-row-start: 2;  grid-row-end: 3;
 
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-column: 2 / 3;  //     grid-column-start: 2;   grid-column-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-column: 2 / 3; //     grid-column-start: 2;   grid-column-end: 3;
 
-    grid-area: 2 / 2 / 3 / -1;   //   grid-row:  2 / 3;    grid-column: 2 / 3; 
-    // -1 indicates last column/row line
-    grid-column: 1 / span 3;  // it will span 3 from 1 
-}
-
-```
-**What I learned and Created:** 
-```html 
- <div class="grid">
-            <div class="grid__head">Header</div>
-            <div class="grid__sm-box--1">Small Box 1 </div>
-            <div class="grid__sm-box--2">Small Box 2 </div>
-            <div class="grid__sm-box--3"> Small Box 3</div>
-            <div class="grid__side-bar">SideBar</div>
-            <div class="grid__main">Main Content</div>
-            <div class="grid__footer">Footer</div>
-        </div>
-```
-```css
-    .grid{
-    display: grid;
-    color: #eee;
-    font-family: sans-serif;
-    
-    width: 50%;
-    margin: 0 auto;
-    grid-template-columns: 1fr 1fr 1fr 20%;
-    grid-template-rows: 40px 120px 400px 40px;
-    grid-gap: 30px;
-
-    & > * {
-        background-color: red;
-        padding: 10px;
-    }
-
-    &__head{
-        grid-row: 1 / 2;
-        grid-column: 1 / -1;
-    }
-
-    &__side-bar{
-        grid-column: -2 / -1;
-        grid-row: 2 / -2;
-        // height: 500px;
-    }
-    &__main{
-        grid-row: 3 / 4;
-        grid-column: 1 / -2;
-    }
-    &__footer{
-        grid-row: 4 /5;
-        grid-column: 1 / -1;
-    }
+  grid-area: 2 / 2 / 3 / -1; //   grid-row:  2 / 3;    grid-column: 2 / 3;
+  // -1 indicates last column/row line
+  grid-column: 1 / span 3; // it will span 3 from 1
 }
 ```
-**Screenshot I Created:** 
+
+**What I learned and Created:**
+
+```html
+<div class="grid">
+  <div class="grid__head">Header</div>
+  <div class="grid__sm-box--1">Small Box 1</div>
+  <div class="grid__sm-box--2">Small Box 2</div>
+  <div class="grid__sm-box--3">Small Box 3</div>
+  <div class="grid__side-bar">SideBar</div>
+  <div class="grid__main">Main Content</div>
+  <div class="grid__footer">Footer</div>
+</div>
+```
+
+```scss
+.grid {
+  display: grid;
+  color: #eee;
+  font-family: sans-serif;
+
+  width: 50%;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 20%;
+  grid-template-rows: 40px 120px 400px 40px;
+  grid-gap: 30px;
+
+  & > * {
+    background-color: red;
+    padding: 10px;
+  }
+
+  &__head {
+    // grid-row: 1 / 2;
+    grid-column: 1 / -1;
+  }
+
+  &__side-bar {
+    grid-row: 2 / -2;
+    // grid-column: -2 / -1;
+    // height: 500px;
+  }
+  &__main {
+    grid-row: 3 / 4;
+    grid-column: 1 / -2;
+  }
+  &__footer {
+    // grid-row: 4 /5;
+    grid-column: 1 / -1;
+  }
+}
+```
+
+**Screenshot I Created:**
 ![Screenshot](./18-Jan/output.png)
+
+### Day 2: January 19, 2022
+
+**Today's Progress**: Completed Learning About Css Grid from [Advanced CSS and Sass Course](https://www.udemy.com/course/advanced-css-and-sass/?src=sac&kw=advance+css+and+sass) And started Project 3 named "Nexter"
+
+**Thoughts:** Comppleted all the properties of css grid. Now its time to make implementation.I also learned how element is arranged in real world css grid.
+
+**Properties I learned:**
+
+```scss
+.grid {
+  grid-template-columns: repeat(3, [col-start] 1fr [ col-end]) 100px [grid-end];
+  grid-template-rows: [Header-start] 40px [Header-end Box-start] 120px [Box-end Main-start] 400px [Main-end footer-start] 40px [footer-end];
+  grid-gap: 30px;
+  grid-template-areas:
+    ". head head ."
+    "box-1 box-2 box-3 side"
+    "main main main side"
+    "foot foot foot foot";
+  grid-auto-flow: row dense; // item will flow in row
+  grid-auto-rows: 50px; // new item in row will have height of 50px
+  grid-auto-columns: 0.5fr; // new item in col will have width .5fr only used when  grid-auto-flow: column;
+
+  // Aligment of item
+  align-items: center;
+  justify-items: center;
+
+  // Aligment of whole grid
+  align-content: center;
+  justify-content: center;
+
+  grid-template-rows: repeat(2, minmax(150px, min-content));
+  grid-template-columns: repeat(
+    auto-fill,
+    100px
+  ); // automatically create track according to itens in them ..  11 track 1000 / 100 = 10 But collapse to the number of item which is 8 ..
+  grid-template-columns: repeat(
+    auto-fit,
+    100px
+  ); // automatically create track according to itens in them ..  11 track 1000 / 100 = 10
+}
+```
+
+**What I Practised while learning.**
+**Grid Layout 1**
+
+```html
+<div class="grid__head">Header</div>
+<div class="grid__sm-box--1">Small Box 1</div>
+<div class="grid__sm-box--2">Small Box 2</div>
+<div class="grid__sm-box--3">Small Box 3</div>
+<div class="grid__side-bar">SideBar</div>
+<div class="grid__main">Main Content</div>
+<div class="grid__footer">Footer</div>
+```
+
+```scss
+// By Grid-line Number
+.grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 20%;
+  grid-template-rows: 40px 120px 400px 40px;
+  grid-gap: 30px;
+
+  &__head {
+    grid-column: 1 / -1;
+  }
+
+  &__side-bar {
+    grid-row: 2 / -2;
+  }
+  &__main {
+    grid-row: 3 / 4;
+    grid-column: 1 / -2;
+  }
+  &__footer {
+    grid-column: 1 / -1;
+  }
+}
+
+//  By Grid-line Name
+.grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, [col-start] 1fr [ col-end]) 100px [grid-end];
+  grid-template-rows: [Header-start] 40px [Header-end Box-start] 120px [Box-end Main-start] 400px [Main-end footer-start] 40px [footer-end];
+  grid-gap: 30px;
+
+  &__head {
+    grid-column: col-start 1 / grid-end; // grid-column: 1 / -1;
+  }
+
+  &__side-bar {
+    grid-row: Box-start / Main-end; // grid-row: 2 / -2;
+  }
+  &__main {
+    grid-column: col-start 1 / col-end 3; //  grid-column: 1 / -2;
+    grid-row: Main-start / Main-end; // grid-row: 3 / 4;
+  }
+  &__footer {
+    grid-column: col-start 1 / grid-end; // grid-column: 1 / -1;
+  }
+}
+
+//  Gird by Naming each box
+.grid {
+  display: grid;
+
+  grid-template-areas:
+    ". head head ."
+    "box-1 box-2 box-3 side"
+    "main main main side"
+    "foot foot foot foot";
+
+  &__head {
+    grid-area: head;
+  }
+  &__sm-box--1 {
+    grid-area: box-1;
+  }
+  &__sm-box--2 {
+    grid-area: box-2;
+  }
+  &__sm-box--3 {
+    grid-area: box-3;
+  }
+  &__side-bar {
+    grid-area: side;
+  }
+  &__main {
+    grid-area: main;
+  }
+  &__footer {
+    grid-area: foot;
+  }
+}
+```
+
+**Grid Layout 2**
+
+```html
+<div class="grid2">
+  <div class="item item--1">1</div>
+  <div class="item item--2">2</div>
+  <div class="item item--3">3</div>
+  <div class="item item--4">4</div>
+  <div class="item item--5">5</div>
+  <div class="item item--6">6</div>
+  <div class="item item--7">7</div>
+  <div class="item item--8">8</div>
+</div>
+```
+
+```scss
+// inplicit and explicit grid
+.grid2 {
+  display: grid;
+  background-color: #ddd;
+  width: 100px;
+
+  margin: 0 auto;
+  margin-top: 40px;
+  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(2, 150px);
+  grid-gap: 30px;
+
+  grid-auto-flow: row dense; // item will flow in row
+  grid-auto-rows: 50px; // new item in row will have height of 50px
+  grid-auto-columns: 0.5fr; // new item in col will have width .5fr only used when  grid-auto-flow: column;
+
+  // Aligment of item
+  align-items: center;
+  justify-items: center;
+
+  // Aligment of whole grid
+  align-content: center;
+  justify-content: center;
+
+  grid-template-rows: repeat(2, minmax(150px, min-content));
+  grid-template-columns: repeat(
+    auto-fill,
+    100px
+  ); // automatically create track according to itens in them ..  11 track 1000 / 100 = 10 But collapse to the number of item which is 8 ..
+  grid-template-columns: repeat(
+    auto-fit,
+    100px
+  ); // automatically create track according to itens in them ..  11 track 1000 / 100 = 10
+
+  width: 90%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 150px;
+}
+```
+
+**Screenshot I take While Learning**
+![Screenshot](./19-Jan/grid-flow-dense-of.png)
+![Screenshot1](./19-Jan/grid-flow-dense-on.png)
+![Screenshot2](./19-Jan/pic-grid-auto-flow-col.png)
+![Screenshot3](./19-Jan/pic-grid-auto-flow-row.png)
+![Screenshot4](./19-Jan/pic-grid-justify-align-content.png)
+![Screenshot5](./19-Jan/pic-grid-justify-align-items.png)
+![Screenshot6](./19-Jan/respone-1.png)
+![Screenshot6](./19-Jan/respone-2.png)
+![Screenshot6](./19-Jan/respone-3.png)
