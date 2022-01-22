@@ -315,3 +315,11 @@ body {
 - [Natours | Exciting tours for adventurous people](https://github.com/Chandraprakash-Darji/Natrous-Final-Advanced-CSS-and-Sass-Course)
 - [trillo -- Your all-in-one booking app](https://github.com/Chandraprakash-Darji/Trillo-Final-Advanced-CSS-and-Sass-Course)
 - [nexter -- your home, your freedom](https://github.com/Chandraprakash-Darji/Nexter-Final-Advanced-CSS-and-Sass-Course)
+
+### Day 4: January 21, 2022
+
+**Today's Progress**: Started learning JavaScript by [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/?utm_campaign=website1010&utm_medium=website1010&utm_source=mycoupon) It was Crazy fun.
+
+**Thoughts:** Completed funadamentals Part 1. While Leaning i also Created the amzing notes for it. [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
+
+**Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
