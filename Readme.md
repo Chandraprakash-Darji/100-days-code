@@ -323,3 +323,11 @@ body {
 **Thoughts:** Completed funadamentals Part 1. While Leaning i also Created the amzing notes for it. [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
 
 **Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
+
+### Day 5: January 22, 2022
+
+**Today's Progress**: Completed half of Fundamentals in Js part 2.
+
+**Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
+
+**Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
