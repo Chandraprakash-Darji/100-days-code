@@ -331,3 +331,11 @@ body {
 **Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
 
 **Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
+
+### Day 6: January 23, 2022
+
+**Today's Progress**: Completed Fundamentals in Js part 2 , Developer skills, Dom first Project
+
+**Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
+
+**Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
