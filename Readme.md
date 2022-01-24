@@ -312,6 +312,7 @@ body {
 **Next Step** Started Javscript with [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/?utm_campaign=website1010&utm_medium=website1010&utm_source=mycoupon)
 
 **Project Completed while learning CSS and SASS are listed below**
+
 - [Natours | Exciting tours for adventurous people](https://github.com/Chandraprakash-Darji/Natrous-Final-Advanced-CSS-and-Sass-Course)
 - [trillo -- Your all-in-one booking app](https://github.com/Chandraprakash-Darji/Trillo-Final-Advanced-CSS-and-Sass-Course)
 - [nexter -- your home, your freedom](https://github.com/Chandraprakash-Darji/Nexter-Final-Advanced-CSS-and-Sass-Course)
@@ -335,6 +336,14 @@ body {
 ### Day 6: January 23, 2022
 
 **Today's Progress**: Completed Fundamentals in Js part 2 , Developer skills, Dom first Project
+
+**Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
+
+**Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
+
+### Day 7: January 24, 2022
+
+**Today's Progress**: Completed DOM all Project . 
 
 **Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
 
