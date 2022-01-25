@@ -343,8 +343,18 @@ body {
 
 ### Day 7: January 24, 2022
 
-**Today's Progress**: Completed DOM all Project . 
+**Today's Progress**: Completed DOM all Project .
 
 **Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
 
 **Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
+
+### Day 8: January 25, 2022
+
+**Today's Progress**: Completed How Js works... But this topic was quite comfusing so i go on freecodecamp js course and completed one of practise of js to get certificate of js.. It was Number to Roman. It was Just amazing to solve.. First i solved in python and then convertd in js by self.
+
+**JS Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
+
+**Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
+
+[NumberToRomanInJsAndPy](https://gist.github.com/Chandraprakash-Darji/695b24f375dffe143652002e1008ca99)
