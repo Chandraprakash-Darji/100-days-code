@@ -358,3 +358,12 @@ body {
 **Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
 
 [NumberToRomanInJsAndPy](https://gist.github.com/Chandraprakash-Darji/695b24f375dffe143652002e1008ca99)
+
+### Day 9: January 26, 2022
+
+**Today's Progress**: Started Learning about Data Structure in JS. Today it was very in productive it was hard to complete fot my self.
+
+**JS Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
+
+**Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
+
