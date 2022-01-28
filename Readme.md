@@ -374,3 +374,11 @@ body {
 **JS Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
 
 **Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
+
+### Day 11: January 28, 2022
+
+**Today's Progress**: Learned About Sets , Map , Looping over Objects , Enhanced Object Litterals ...
+
+**JS Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
+
+**Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
