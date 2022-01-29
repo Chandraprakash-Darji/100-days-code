@@ -382,3 +382,11 @@ body {
 **JS Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
 
 **Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
+
+### Day 12: January 29, 2022
+
+**Today's Progress**: Learned About working with String and completed project of freecodecamp.org of js  Pallidrome checker,Caesars Cipher and Cash Register.
+
+**JS Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
+
+**Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
