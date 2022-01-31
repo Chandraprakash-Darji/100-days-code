@@ -389,4 +389,8 @@ body {
 
 **JS Notes link:** [Js-notes](https://github.com/Chandraprakash-Darji/Js-notes)
 
-**Till Now HomeWork I completed** [What I learned](https://github.com/Chandraprakash-Darji/advance-js-learning-files)
+**Till Now HomeWork I completed** [What I learned](shttps://github.com/Chandraprakash-Darji/advance-js-learning-files)
+
+### Day 13: January 30, 2022
+
+**Today's Progress**: Revision of note
