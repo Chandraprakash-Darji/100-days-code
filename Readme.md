@@ -394,3 +394,7 @@ body {
 ### Day 13: January 30, 2022
 
 **Today's Progress**: Revision of note
+
+### Day 14: January 31, 2022
+
+**Today's Progress**: Completed 3 project from 50 days 50 project challenge course without watching video..
